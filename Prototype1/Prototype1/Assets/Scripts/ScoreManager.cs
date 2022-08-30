@@ -27,7 +27,7 @@ public class ScoreManager : MonoBehaviour
             textBox.text = "Score: " + score;
         }
 
-        if (score>=3)
+        if (score>=4)
         {
             won = true;
             gameOver = true;
