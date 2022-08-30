@@ -4,6 +4,12 @@ using UnityEngine;
 //using UnityEngine.UI;
 
 //attatch this to the player
+
+/*
+ * Josh Bonovich    
+ * Prototype 1
+ * Code to say when the player passes a trigge (redundant now)
+ */
 public class PlayerEnterTrigger : MonoBehaviour
 {
 

@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Josh Bonovich    
+ * Prototype 1
+ * Code ftell the score manager if the player passed a trigger gate
+ */
 public class TriggerZoneBehavior : MonoBehaviour
 {
 

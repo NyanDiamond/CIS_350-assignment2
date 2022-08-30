@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Josh Bonovich    
+ * Prototype 1
+ * Code for the camera to follow the player
+ */
 public class CamFollowPlayer : MonoBehaviour
 {
     public GameObject player;

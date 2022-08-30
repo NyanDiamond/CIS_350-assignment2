@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
+/*
+ * Josh Bonovich    
+ * Prototype 1
+ * Code to keep track of the game state and score
+ */
 public class ScoreManager : MonoBehaviour
 {
 

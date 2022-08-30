@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Josh Bonovich    
+ * Prototype 1
+ * Code to control player movement
+ */
 public class PlayerBehavior : MonoBehaviour
 {
     public float speed;
@@ -9,11 +14,7 @@ public class PlayerBehavior : MonoBehaviour
 
     public float forwardInput;
     public float horizontalInput;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+ 
 
     // Update is called once per frame
     void Update()
