@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Josh Bonovich
+//Project 6 Easy mode
+//This script controls button presses on the main menu
 public class MainMenuBehavior : MonoBehaviour
 {
     private GameManager gm;

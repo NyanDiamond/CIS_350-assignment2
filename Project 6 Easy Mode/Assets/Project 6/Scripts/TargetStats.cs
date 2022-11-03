@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Josh Bonovich
+//Project 6 Easy mode
+//This scriptable object is to hold the data of all target type objects
 [CreateAssetMenu(fileName = "Targets")]
 public class TargetStats : ScriptableObject
 {

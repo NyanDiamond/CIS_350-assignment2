@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Josh Bonovich
+//Project 6 Easy mode
+//This script allows for destructable obstacles
 public class Destructable : MonoBehaviour, Damageable
 {
     [SerializeField] float health;
