@@ -5,11 +5,11 @@ using UnityEngine;
 //Josh Bonovich
 //Project 5B/6
 //This script holds the health of the targets
-public class Target : MonoBehaviour
+public class Target : MonoBehaviour, Damageable
 {
     public TargetStats ts;
     private GameControllerBehavior gc;
-    private float health;
+    float health;
 
     private void Start()
     {

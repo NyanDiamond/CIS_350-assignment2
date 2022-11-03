@@ -41,7 +41,7 @@ public class ShootWithRaycast : MonoBehaviour
             GameObject hit = hitInfo.transform.gameObject;
             //Debug.Log(hit.name);
 
-            Target target = hit.GetComponent<Target>();
+            Damageable target = hit.GetComponent<Damageable>();
             if(target!=null)
             {
                 target.TakeDamage(damage);
