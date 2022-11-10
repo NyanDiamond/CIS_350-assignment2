@@ -70,7 +70,7 @@ public class SpawnManager : MonoBehaviour
                     return;
                 }
                 SpawnEnemyWave(waveCount);
-                SpawnPowerUp(Mathf.CeilToInt(waveCount/5));
+                SpawnPowerUp(Mathf.CeilToInt((float)waveCount/5f));
             }
         }
     }
