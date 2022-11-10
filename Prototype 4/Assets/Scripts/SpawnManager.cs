@@ -45,6 +45,13 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Semicolon))
+        {
+            foreach (GameObject temp in GameObject.FindGameObjectsWithTag("Enemy"))
+            {
+                Destroy(temp);
+            }
+        }
         if (gameOver == true)
         {
             if(Input.GetKeyDown(KeyCode.R))
